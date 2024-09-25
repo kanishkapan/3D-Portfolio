@@ -182,6 +182,14 @@ import {
     },
     {
       testimonial:
+        "This individual demonstrates exceptional proficiency in both frontend and backend technologies, crafting seamless user experiences and robust functionality. Their mastery of HTML, CSS, JavaScript, and popular frameworks ensures efficient and elegant solutions.  Overall, their expertise, adaptability, and dedication make them a valuable asset to any web development team.",
+      name: "Gungun Jain",
+      designation: "DSA Learner",
+      company: "IET DAVV  ",
+      image: "WhatsApp Image 2024-06-04 at 09.56.00_fd6997f5.jpg",
+    },
+    {
+      testimonial:
         "Kanishka's expertise as a full stack developer is truly impressive. Working with him has always been a pleasure because of his dedication, consistency, problem-solving skills, and seamless ability to handle both front-end and back-end tasks.",
       name: "Mufaddal Ratlamwala",
       designation: "Co-Developer",
@@ -210,8 +218,27 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/kanishkapan",
     },
+    {
+      name: "Twitter clone",
+      description:
+        "I'm thrilled to share a project I've recently completed: a Twitter clone built using React and Tailwind CSS! 🎉 This project was an incredible learning experience that combined my passion for front-end development with the latest technologies in web development.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+       
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "Screenshot 2024-05-23 041818.png",
+      source_code_link: "https://github.com/kanishkapan/Twitter-Clone",
+    },
+
     {
       name: "Job IT",
       description:
@@ -231,7 +258,29 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/kanishkapan",
+    },
+
+    {
+      name: "Image Gallery",
+      description:
+        "I’m thrilled to share a recent project I completed: an image gallery app built with React and the Pixabay API. The journey was filled with learning and overcoming challenges, and I’d love to share my story:",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "Screenshot 2024-06-04 032536.png",
+      source_code_link: "https://github.com/kanishkapan",
     },
     {
       name: "Trip Guide",
@@ -255,6 +304,28 @@ import {
       source_code_link: "https://github.com/",
     },
   ];
+  const socialMedia = [
+    {
+      name: "kanishkapan",
+      icon: "images.png", // Replace with the path to your GitHub icon
+      link: "https://github.com/kanishkapan",
+    },
+    {
+      name: "Kanishka Pandey",
+      icon: "czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk4Mi1kMy0xMC5wbmc.webp", // Replace with the path to your LinkedIn icon
+      link: "www.linkedin.com/in/kanishka-pandey-b0277b292",
+    },
+    {
+      name: "@kaniii__21",
+      icon:"png-transparent-twitter-logo-computer-icons-logo-twitter-icon-computer-wallpaper-monochrome-bird.png", // Replace with the path to your Twitter icon
+      link: "https://x.com/kaniii__21",
+    },
+    {
+      name: "hustlecrushconquer",
+      icon:"png-transparent-camera-instagram-social-media-instagram-logo-social-media-circle-icon-thumbnail.png", // Replace with the path to your Instagram icon
+      link: "https://www.instagram.com/hustlecrushconquer/",
+    },
   
-  export { services, technologies, experiences, testimonials, projects };
+  ];
+  export { services, technologies, experiences, testimonials, projects ,socialMedia};
   
